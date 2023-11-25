@@ -9,7 +9,8 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>spring6-hello</module>
+        <module>spring6-0001-hello</module>
+        <module>spring6-0002-test-create-object</module>
     </modules>
 
     <properties>
