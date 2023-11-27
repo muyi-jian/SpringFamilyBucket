@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="hello" class="com.yj.spring6.bean.Hello"></bean>
+    <!--用于测试根据类型获取报错-->
+    <!--<bean id="hello2" class="com.yj.spring6.bean.Hello"></bean>-->
+
+</beans>

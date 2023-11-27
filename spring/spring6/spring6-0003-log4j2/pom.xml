@@ -9,7 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>spring6-0001-hello</artifactId>
+    <artifactId>spring6-0003-log4j2</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -28,6 +28,16 @@
             <artifactId>junit-jupiter-api</artifactId>
             <version>5.10.1</version>
         </dependency>
-    </dependencies>
 
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.20.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-slf4j2-impl</artifactId>
+            <version>2.20.0</version>
+        </dependency>
+    </dependencies>
 </project>

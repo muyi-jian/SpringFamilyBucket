@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="specialVal" class="com.yj.spring6.bean.SpecialVal">
+        <!-- property标签：通过组件类的setXxx()方法给组件对象设置属性 -->
+        <!-- name属性：指定属性名（这个属性名是getXxx()、setXxx()方法定义的，和成员变量无关） -->
+        <!-- value属性：指定属性值 -->
+        <property name="name" value="小明"/>
+    </bean>
+
+    <!--null值-->
+    <bean id="specialValOne" class="com.yj.spring6.bean.SpecialVal">
+        <property name="name">
+            <null />
+        </property>
+    </bean>
+
+    <!--xml实体  实现 a < b  -->
+    <bean id="specialValTwo" class="com.yj.spring6.bean.SpecialVal">
+
+        <!--SpecialVal{name=a < b} -->
+        <property name="name" value="a &lt; b"></property>
+
+    </bean>
+
+    <!--CDATA节 实现 a < b  -->
+    <bean id="specialValThree" class="com.yj.spring6.bean.SpecialVal">
+        <!--使用CDATA节  SpecialVal{name=a < b} -->
+        <property name="name">
+            <!-- 解决方案二：使用CDATA节 -->
+            <!-- CDATA中的C代表Character，是文本、字符的含义，CDATA就表示纯文本数据 -->
+            <!-- XML解析器看到CDATA节就知道这里是纯文本，就不会当作XML标签或属性来解析 -->
+            <!-- 所以CDATA节中写什么符号都随意 -->
+            <value><![CDATA[a < b]]></value>
+        </property>
+    </bean>
+
+
+
+
+</beans>

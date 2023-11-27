@@ -1,0 +1,10 @@
+22:42:42.065 DEBUG org.springframework.context.support.AbstractApplicationContext 658 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3a3e4aff
+22:42:42.296 DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader 402 doLoadBeanDefinitions - Loaded 8 bean definitions from class path resource [bean-util.xml]
+22:42:42.350 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'clazzOne'
+22:42:42.417 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'clazzTwo'
+22:42:42.419 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'clazzThree'
+22:42:42.421 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'student1One'
+22:42:42.423 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'student1Two'
+22:42:42.425 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'clazz'
+22:42:42.447 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'student1Map'
+22:42:42.450 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'specialMapOne'
