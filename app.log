@@ -177,3 +177,15 @@
 2023-11-26 at 22:42:42 CST DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'clazz'
 2023-11-26 at 22:42:42 CST DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'student1Map'
 2023-11-26 at 22:42:42 CST DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'specialMapOne'
+2023-11-28 at 21:07:12 CST DEBUG org.springframework.context.support.AbstractApplicationContext 658 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3b2c0e88
+2023-11-28 at 21:07:13 CST DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader 402 doLoadBeanDefinitions - Loaded 4 bean definitions from class path resource [bean-p.xml]
+2023-11-28 at 21:07:13 CST DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'p'
+2023-11-28 at 21:07:13 CST DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'animals'
+2023-11-28 at 21:07:13 CST DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'animalOne'
+2023-11-28 at 21:07:14 CST DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'animalTwo'
+2023-11-28 at 21:09:25 CST DEBUG org.springframework.context.support.AbstractApplicationContext 658 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3b2c0e88
+2023-11-28 at 21:09:25 CST DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader 402 doLoadBeanDefinitions - Loaded 4 bean definitions from class path resource [bean-p.xml]
+2023-11-28 at 21:09:25 CST DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'p'
+2023-11-28 at 21:09:25 CST DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'animals'
+2023-11-28 at 21:09:25 CST DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'animalOne'
+2023-11-28 at 21:09:25 CST DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'animalTwo'
