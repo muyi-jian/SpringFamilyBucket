@@ -1,6 +1,5 @@
-21:09:25.280 DEBUG org.springframework.context.support.AbstractApplicationContext 658 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3b2c0e88
-21:09:25.482 DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader 402 doLoadBeanDefinitions - Loaded 4 bean definitions from class path resource [bean-p.xml]
-21:09:25.523 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'p'
-21:09:25.541 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'animals'
-21:09:25.543 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'animalOne'
-21:09:25.572 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'animalTwo'
+22:02:33.251 DEBUG org.springframework.context.support.AbstractApplicationContext 658 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1c852c0f
+22:02:33.417 DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader 402 doLoadBeanDefinitions - Loaded 3 bean definitions from class path resource [bean-auto.xml]
+22:02:33.455 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'userController'
+22:02:33.502 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'userService'
+22:02:33.504 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'userDao'
