@@ -1,4 +1,4 @@
-package com.yj.spring6.bean;
+package com.yj.spring6.xmlaop;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.context.ApplicationContext;
@@ -25,7 +25,7 @@ public class TestHello {
     public void test2() throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
         // dom4j解析beans.xml文件，从中获取class属性值，类的全类名
         // 通过反射机制调用无参数构造方法创建对象
-        Class<?> clazz = Class.forName("com.yj.spring6.bean.Hello");
+        Class<?> clazz = Class.forName("com.yj.spring6.xmlaop.Hello");
         //Object obj = clazz.newInstance();
         Object obj = clazz.getDeclaredConstructor().newInstance();
 

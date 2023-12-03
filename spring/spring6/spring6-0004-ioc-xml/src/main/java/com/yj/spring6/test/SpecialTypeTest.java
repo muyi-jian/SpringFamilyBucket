@@ -1,7 +1,6 @@
 package com.yj.spring6.test;
 
-import com.yj.spring6.bean.SpecialType;
-import com.yj.spring6.bean.SpecialVal;
+import com.yj.spring6.xmlaop.SpecialType;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

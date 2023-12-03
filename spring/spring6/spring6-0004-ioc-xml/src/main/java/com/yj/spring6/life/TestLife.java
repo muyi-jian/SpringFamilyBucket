@@ -1,6 +1,6 @@
 package com.yj.spring6.life;
 
-import com.yj.spring6.bean.Life;
+import com.yj.spring6.xmlaop.Life;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

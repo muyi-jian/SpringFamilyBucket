@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="specialArray" class="com.yj.spring6.bean.SpecialType">
+    <bean id="specialArray" class="com.yj.spring6.xmlaop.SpecialType">
         <property name="hobbies">
             <array>
                 <value>唱歌</value>
@@ -13,24 +13,24 @@
         </property>
     </bean>
 
-    <bean id="clazzOne" class="com.yj.spring6.bean.Clazz">
+    <bean id="clazzOne" class="com.yj.spring6.xmlaop.Clazz">
        <property name="clazzId" value="1111"></property>
         <property name="clazzName" value="书法班"></property>
     </bean>
 
 
-    <bean id="clazzTwo" class="com.yj.spring6.bean.Clazz">
+    <bean id="clazzTwo" class="com.yj.spring6.xmlaop.Clazz">
         <property name="clazzId" value="222"></property>
         <property name="clazzName" value="音乐班"></property>
     </bean>
 
 
-    <bean id="clazzThree" class="com.yj.spring6.bean.Clazz">
+    <bean id="clazzThree" class="com.yj.spring6.xmlaop.Clazz">
         <property name="clazzId" value="333"></property>
         <property name="clazzName" value="体育班"></property>
     </bean>
 
-    <bean id="specialList" class="com.yj.spring6.bean.SpecialType">
+    <bean id="specialList" class="com.yj.spring6.xmlaop.SpecialType">
         <property name="hobbies">
             <list>
                 <value>唱歌</value>
@@ -47,17 +47,17 @@
         </property>
     </bean>
 
-    <bean id="student1One" class="com.yj.spring6.bean.Student1">
+    <bean id="student1One" class="com.yj.spring6.xmlaop.Student1">
         <property name="id" value="1001"></property>
         <property name="name" value="aaa"></property>
     </bean>
 
-    <bean id="student1Two" class="com.yj.spring6.bean.Student1">
+    <bean id="student1Two" class="com.yj.spring6.xmlaop.Student1">
         <property name="id" value="1002"></property>
         <property name="name" value="bbb"></property>
     </bean>
 
-    <bean id="specialMap" class="com.yj.spring6.bean.SpecialType">
+    <bean id="specialMap" class="com.yj.spring6.xmlaop.SpecialType">
         <property name="hobbies">
             <list>
                 <value>唱歌</value>

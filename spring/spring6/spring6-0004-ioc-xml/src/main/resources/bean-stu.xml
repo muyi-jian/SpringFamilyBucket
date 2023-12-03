@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!--setter注入-->
-    <bean id="studentOne" class="com.yj.spring6.bean.Student">
+    <bean id="studentOne" class="com.yj.spring6.xmlaop.Student">
         <!-- property标签：通过组件类的setXxx()方法给组件对象设置属性 -->
         <!-- name属性：指定属性名（这个属性名是getXxx()、setXxx()方法定义的，和成员变量无关） -->
         <!-- value属性：指定属性值 -->
@@ -15,7 +15,7 @@
     </bean>
 
     <!--构造器注入-->
-    <bean id="studentTwo" class="com.yj.spring6.bean.Student">
+    <bean id="studentTwo" class="com.yj.spring6.xmlaop.Student">
        <constructor-arg value="1002"></constructor-arg>
        <constructor-arg value="李四"></constructor-arg>
         <constructor-arg value="26"></constructor-arg>

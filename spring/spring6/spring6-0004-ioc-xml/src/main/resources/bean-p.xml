@@ -8,14 +8,14 @@
         http://www.springframework.org/schema/util
         http://www.springframework.org/schema/util/spring-util.xsd">
 
-    <bean id="p" class="com.yj.spring6.bean.P" p:species="猫" p:animals-ref="animals"></bean>
+    <bean id="p" class="com.yj.spring6.xmlaop.P" p:species="猫" p:animals-ref="animals"></bean>
 
 
-    <bean id="animalOne" class="com.yj.spring6.bean.Animal">
+    <bean id="animalOne" class="com.yj.spring6.xmlaop.Animal">
         <property name="name" value="英短猫"></property>
         <property name="age" value="1"></property>
     </bean>
-    <bean id="animalTwo" class="com.yj.spring6.bean.Animal">
+    <bean id="animalTwo" class="com.yj.spring6.xmlaop.Animal">
         <property name="name" value="布偶猫"></property>
         <property name="age" value="3"></property>
     </bean>

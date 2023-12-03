@@ -1,4 +1,4 @@
-package com.yj.spring6.bean;
+package com.yj.spring6.xmlaop;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

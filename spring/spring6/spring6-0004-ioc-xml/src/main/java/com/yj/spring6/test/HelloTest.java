@@ -1,7 +1,7 @@
 package com.yj.spring6.test;
 
 
-import com.yj.spring6.bean.Hello;
+import com.yj.spring6.xmlaop.Hello;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-    <bean id="specialVal" class="com.yj.spring6.bean.SpecialVal">
+    <bean id="specialVal" class="com.yj.spring6.xmlaop.SpecialVal">
         <!-- property标签：通过组件类的setXxx()方法给组件对象设置属性 -->
         <!-- name属性：指定属性名（这个属性名是getXxx()、setXxx()方法定义的，和成员变量无关） -->
         <!-- value属性：指定属性值 -->
@@ -12,14 +12,14 @@
     </bean>
 
     <!--null值-->
-    <bean id="specialValOne" class="com.yj.spring6.bean.SpecialVal">
+    <bean id="specialValOne" class="com.yj.spring6.xmlaop.SpecialVal">
         <property name="name">
             <null />
         </property>
     </bean>
 
     <!--xml实体  实现 a < b  -->
-    <bean id="specialValTwo" class="com.yj.spring6.bean.SpecialVal">
+    <bean id="specialValTwo" class="com.yj.spring6.xmlaop.SpecialVal">
 
         <!--SpecialVal{name=a < b} -->
         <property name="name" value="a &lt; b"></property>
@@ -27,7 +27,7 @@
     </bean>
 
     <!--CDATA节 实现 a < b  -->
-    <bean id="specialValThree" class="com.yj.spring6.bean.SpecialVal">
+    <bean id="specialValThree" class="com.yj.spring6.xmlaop.SpecialVal">
         <!--使用CDATA节  SpecialVal{name=a < b} -->
         <property name="name">
             <!-- 解决方案二：使用CDATA节 -->

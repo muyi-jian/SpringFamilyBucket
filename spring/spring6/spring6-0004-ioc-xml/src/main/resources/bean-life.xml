@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="life" class="com.yj.spring6.bean.Life" scope="singleton"
+    <bean id="life" class="com.yj.spring6.xmlaop.Life" scope="singleton"
           init-method="initMethod"
           destroy-method="destroyMethod">
         <property name="name" value="life"/>
