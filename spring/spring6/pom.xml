@@ -15,6 +15,7 @@
         <module>spring6-0004-ioc-xml</module>
         <module>spring6-0005-ioc-annotation</module>
         <module>spring6-0006-aop</module>
+        <module>spring6-0007-junit</module>
     </modules>
 
     <properties>
