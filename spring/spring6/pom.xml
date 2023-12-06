@@ -16,6 +16,7 @@
         <module>spring6-0005-ioc-annotation</module>
         <module>spring6-0006-aop</module>
         <module>spring6-0007-junit</module>
+        <module>spring6-0008-jdbctemplete</module>
     </modules>
 
     <properties>

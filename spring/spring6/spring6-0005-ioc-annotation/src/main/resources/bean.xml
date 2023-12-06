@@ -15,7 +15,7 @@
             type="assignable"，根据类型排除，expression中设置要排除的类型的全类名
         -->
         <!--<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>-->
-        <!--<context:exclude-filter type="assignable" expression="com.yj.spring6.controller.UserController"/>-->
+        <!--<context:exclude-filter type="assignable" expression="com.yj.spring6.tx.controller.UserController"/>-->
 
 
 
@@ -28,6 +28,6 @@
             type="assignable"，根据类型排除，expression中设置要排除的类型的全类名
         -->
         <!--<context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>-->
-        <!--<context:include-filter type="assignable" expression="com.yj.spring6.controller.UserController"/>-->
+        <!--<context:include-filter type="assignable" expression="com.yj.spring6.tx.controller.UserController"/>-->
     </context:component-scan>
 </beans>
