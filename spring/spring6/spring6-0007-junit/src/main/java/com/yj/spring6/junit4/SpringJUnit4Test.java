@@ -1,6 +1,6 @@
 package com.yj.spring6.junit4;
 
-import com.yj.spring6.bean.User;
+import com.yj.spring6.xml.bean.User;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;

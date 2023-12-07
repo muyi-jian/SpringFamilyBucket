@@ -1537,3 +1537,9 @@
 2023-12-03 at 09:59:36 CST DEBUG org.springframework.test.context.cache.DefaultContextCache 318 logStatistics - Spring test ApplicationContext cache statistics: [DefaultContextCache@47747fb9 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 6, missCount = 1, failureCount = 0]
 2023-12-03 at 09:59:36 CST DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener 154 beforeOrAfterTestClass - After test class: class [SpringJUnit4Test], class annotated with @DirtiesContext [false] with mode [null]
 2023-12-03 at 09:59:36 CST DEBUG org.springframework.context.support.AbstractApplicationContext 1064 doClose - Closing org.springframework.context.support.GenericApplicationContext@56aaaecd, started on Sun Dec 03 09:59:36 CST 2023
+2023-12-06 at 16:12:32 CST DEBUG org.springframework.context.support.AbstractApplicationContext 658 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@59e2d8e3
+2023-12-06 at 16:12:32 CST DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader 402 doLoadBeanDefinitions - Loaded 1 bean definitions from class path resource [bean.xml]
+2023-12-06 at 16:12:33 CST DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'testBean'
+2023-12-06 at 16:13:06 CST DEBUG org.springframework.context.support.AbstractApplicationContext 658 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@59e2d8e3
+2023-12-06 at 16:13:06 CST DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader 402 doLoadBeanDefinitions - Loaded 1 bean definitions from class path resource [bean.xml]
+2023-12-06 at 16:13:06 CST DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'testBean'

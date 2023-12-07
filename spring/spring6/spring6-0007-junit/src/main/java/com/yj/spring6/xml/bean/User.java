@@ -1,4 +1,4 @@
-package com.yj.spring6.bean;
+package com.yj.spring6.xml.bean;
 
 import org.springframework.stereotype.Component;
 

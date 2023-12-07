@@ -17,6 +17,9 @@
         <module>spring6-0006-aop</module>
         <module>spring6-0007-junit</module>
         <module>spring6-0008-jdbctemplete</module>
+        <module>spring6-00009-resource</module>
+        <module>spring6-00010-i18n</module>
+        <module>spring6-00011-validation</module>
     </modules>
 
     <properties>

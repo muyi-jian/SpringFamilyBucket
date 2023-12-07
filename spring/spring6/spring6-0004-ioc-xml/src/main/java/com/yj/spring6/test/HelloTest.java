@@ -24,9 +24,9 @@ public class HelloTest {
     /**
      * 2.根据类型获取
      *  根据类型获取，IOC容器种指定类型的bean只能有一个，
-     *  例：配置了：    <bean id="hello2" class="com.yj.spring6.bean.Hello"></bean>
+     *  例：配置了：    <bean id="hello2" class="com.yj.spring6.xml.bean.Hello"></bean>
      *  报错：
-     *  org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'com.yj.spring6.bean.Hello' available: expected single matching bean but found 2: hello,hello2
+     *  org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'com.yj.spring6.xml.bean.Hello' available: expected single matching bean but found 2: hello,hello2
      */
     @Test
     public void test02(){
