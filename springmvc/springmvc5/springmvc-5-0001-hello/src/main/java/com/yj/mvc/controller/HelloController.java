@@ -17,8 +17,14 @@ public class HelloController {
         return "index";
     }
 
+    //第一种
     @RequestMapping("/hello")
     public String toHello(){
         return "hello";
+    }
+
+    @RequestMapping("/target")
+    public String toTarget(){
+        return "target";
     }
 }
