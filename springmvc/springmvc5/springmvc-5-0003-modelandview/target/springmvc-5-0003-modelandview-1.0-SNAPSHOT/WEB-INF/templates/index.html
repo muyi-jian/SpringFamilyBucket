@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+    <h5>首页</h5>
+    
+    <a th:href="@{/testsaveByServletAPI(username='zs',password='12345')}">测试RequestMapping传入参数并通过ServletAPI存入域中</a><br>
+    <a th:href="@{/testGetByServletAPI(username='zs')}">测试RequestMapping传入参数并通过ServletAPI从入域中获取数据</a><br>
+    
+    <a th:href="@{/testsaveByModelAndView(username='zs',password='12345')}">测试RequestMapping传入参数并通过ModelAndView存入域中</a><br>
+    
+    <a th:href="@{/testsaveByModel?username='zs'&password='12345'}">测试RequestMapping传入参数并通过Model存入域中</a><br>
+    
+    <a th:href="@{/testsaveByMap?username='zs'&password='12345'}">测试RequestMapping传入参数并通过Map存入域中</a><br>
+    
+    <a th:href="@{/testsaveByModelMap?username='zs'&password='12345'}">测试RequestMapping传入参数并通过ModelMap存入域中</a><br>
+    
+    <a th:href="@{/testsaveBySession?username='zs'&password='12345'}">测试RequestMapping传入参数并通过Session存入域中</a><br>
+    <a th:href="@{/testGetBySession}">测试RequestMapping传入参数并通过Session从入域中获取数据</a><br>
+    
+    <a th:href="@{/testsaveByServletContext?username='zs'&password='12345'}">测试RequestMapping传入参数并通过ServletContext存入域中</a><br>
+    <a th:href="@{/testGetByServletContext}">测试RequestMapping传入参数并通过ServletContext从入域中获取数据</a><br>
+    
+    <form th:action="@{/testpojo}" method="post">
+        用户名：<input type="text" name="username"><br>
+        密码：<input type="password" name="password"><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
