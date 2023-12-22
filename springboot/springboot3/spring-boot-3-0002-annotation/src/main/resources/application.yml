@@ -1,0 +1,10 @@
+dog1:
+  name: 富贵
+  age: 30
+
+
+logging:
+  pattern:
+    console: '%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{15} ===> %msg%n'
+    file: '%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{15} ===> %msg%n'
+  config: classpath:logback-spring.xml

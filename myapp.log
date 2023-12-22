@@ -1,0 +1,9 @@
+2023-12-22 15:54:22.367 INFO  [main] c.y.s.SpringBoot30002AnnotationApplication ===> Starting SpringBoot30002AnnotationApplication using Java 17.0.5 with PID 39544 (D:\projectSpace\IDEA\SpringFamilyBucket\springboot\springboot3\spring-boot-3-0002-annotation\target\classes started by 14751 in D:\projectSpace\IDEA\SpringFamilyBucket)
+2023-12-22 15:54:22.370 INFO  [main] c.y.s.SpringBoot30002AnnotationApplication ===> No active profile set, falling back to 1 default profile: "default"
+2023-12-22 15:54:23.542 INFO  [main] o.s.b.w.e.t.TomcatWebServer ===> Tomcat initialized with port 8080 (http)
+2023-12-22 15:54:23.552 INFO  [main] o.a.c.c.StandardService ===> Starting service [Tomcat]
+2023-12-22 15:54:23.552 INFO  [main] o.a.c.c.StandardEngine ===> Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-22 15:54:23.620 INFO  [main] o.a.c.c.C.[.[.[/] ===> Initializing Spring embedded WebApplicationContext
+2023-12-22 15:54:23.620 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext ===> Root WebApplicationContext: initialization completed in 1190 ms
+2023-12-22 15:54:23.962 INFO  [main] o.s.b.w.e.t.TomcatWebServer ===> Tomcat started on port 8080 (http) with context path ''
+2023-12-22 15:54:23.970 INFO  [main] c.y.s.SpringBoot30002AnnotationApplication ===> Started SpringBoot30002AnnotationApplication in 2.171 seconds (process running for 2.939)
