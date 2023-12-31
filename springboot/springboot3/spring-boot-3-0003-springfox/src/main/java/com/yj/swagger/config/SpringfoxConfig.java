@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
  * @description
  */
 @Configuration
-public class SwaggerConfig {
+public class SpringfoxConfig {
 
     @Bean
     public GroupedOpenApi userApi(){
